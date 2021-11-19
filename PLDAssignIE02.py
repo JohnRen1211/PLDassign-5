@@ -1,3 +1,4 @@
+# The application of if else in giving input then evaluating the value.
 # The steps to do.
 #1 Ask for 3 numbers value.
 #2 Show the lowest value showing the highest is optional.
@@ -41,8 +42,11 @@ elif (number3 >= number1) and (number3 >=number2):
 
 print("The lowest value is: ")
 print(min([number1, number2, number3]))
+
 print("The highest value is: ")
 print(max([number1, number2, number3]))
+
+
 
 
 
