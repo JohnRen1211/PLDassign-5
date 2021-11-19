@@ -1,7 +1,23 @@
-# Wodneful sample program
+# The if else application
 #steps
 #1. ask age, convert and stage.
 #2. Show response in condition.
+
+print("Welcome to the system can you input age? Type 1 for yes and 2 for no command.")
+answer= int(input("Response: "))
+command1 = 1
+command2 = 2
+if answer == command2:
+    print("Okay, then rest.")
+    raise SystemExit
+elif answer <= -1:
+    print("Input the right command.")
+    raise SystemExit
+elif answer == command1:
+    print("Continue to the survey")
+elif answer >= command2:
+    print("Input the right command.")
+    raise SystemExit
 
 age = int(input("Age: "))
 #2. test 0-12
