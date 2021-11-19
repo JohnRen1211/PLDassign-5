@@ -1,6 +1,8 @@
 # Wodneful sample program
 #steps
-#1. ask age, convert and stage
+#1. ask age, convert and stage.
+#2. Show response in condition.
+
 age = int(input("Age: "))
 #2. test 0-12
 if age > -1 and age <= 12:
