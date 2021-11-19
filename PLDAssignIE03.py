@@ -1,6 +1,6 @@
 # Program for rounding numbers given value.
 # The program will ask value then evaluate it.
-# The program use import for function.
+# The program used import for library function.  
 # Type import math in program.
 # The chain process of successful input.
 import math
