@@ -1,6 +1,8 @@
-# Program for rounding numbers given
-# Type import math in program
-# The chain process of successful input  
+# Program for rounding numbers given value.
+# The program will ask value then evaluate it.
+# The program use import for function.
+# Type import math in program.
+# The chain process of successful input.
 import math
 # define a function for round_up
 def round_up (n, decimals =0):
@@ -62,7 +64,7 @@ elif (equivalent_grade ==75):
 elif (equivalent_grade >64) or (equivalent_grade ==74):
     print("Description: Failure")
 
-print("System successfully process the information. ")
+print("System successfully processed the information. ")
 
 
 
